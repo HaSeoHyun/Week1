@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+void myreverse (char s)  
+{
+  char arr[50];
+  char *p=arr;
+  
+  scanf("%s", arr);
+  
+  for (int i= strlen(p); i>=0; i--)
+    printf("%c",p[i]);
+}
+
+int main(void)
+{
+  char input=0;
+  myreverse(input);
+  return 0;
+}
